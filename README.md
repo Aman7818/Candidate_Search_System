@@ -93,7 +93,7 @@ POST /api/candidates/
 ### 2. Update a Candidate
 **Request:**
 ```json
-PUT /api/candidates/1/
+PATCH /api/candidates/1/
 {
     "name": "John Smith",
     "age": 29
