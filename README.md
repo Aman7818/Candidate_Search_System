@@ -19,8 +19,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/Aman7818/Candidate_Search_System.git
    ```
 
 2. Create and activate a virtual environment:
@@ -56,12 +55,12 @@ Ensure you have the following installed:
 
 ## API Endpoints
 
-| Method | Endpoint                  | Description |
-|--------|---------------------------|-------------|
-| POST   | `/candidates/`            | Create a new candidate |
-| PUT    | `/candidates/<id>/`       | Update candidate details |
-| DELETE | `/candidates/<id>/delete/`| Delete a candidate |
-| GET    | `/candidates/search/?q=<query>` | Search candidates by name |
+| Method | Endpoint                            | Description |
+|--------|-------------------------------------|-------------|
+| POST   | `/api/candidates/`                  | Create a new candidate |
+| PUT    | `/api/candidates/<id>/`             | Update candidate details |
+| DELETE | `/api/candidates/<id>/delete/`      | Delete a candidate |
+| GET    | `/api/candidates/search/?q=<query>` | Search candidates by name |
 
 
 
@@ -164,6 +163,4 @@ GET /api/candidates/search/?q=John Doe
 ## Contribution
 Feel free to fork the repository, make changes, and create a pull request!
 
-## License
-This project is licensed under the MIT License.
 
